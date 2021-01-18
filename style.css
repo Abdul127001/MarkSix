@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Special+Elite&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Potta One', cursive;
+}
+
+:root {
+    --bg-primary:#FBBF24;
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.bg-primary {
+    background-color: var(--bg-primary);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.img {
+    display: inline;
+    max-width: 5rem;
+    max-height: 6rem;
+    vertical-align:middle!important;
+}
+
+.InputBox, .OutputBox {
+    outline: none;
+    text-transform: capitalize;
+    font-family: 'Potta One', cursive;
+    font-size: 1rem;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid var(--bg-primary);
+    margin-top: 3rem;
+    padding: 8px;
+    display: block;
+    height: 20vh;
+    
+}
+
+.OutputBox {
+    margin-top: 2rem;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    padding: 1rem;
+    background-color: var(--bg-primary);
+    color: #fff;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid var(--bg-primary);
+    font-family:'Potta One', cursive;
+}
+.btn:hover {
+    background-color:white;
+    color:#000;
+    border: 1px solid var(--bg-primary);
+}
